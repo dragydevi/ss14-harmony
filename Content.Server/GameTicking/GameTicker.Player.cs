@@ -54,7 +54,7 @@ namespace Content.Server.GameTicking
 
                     // Make the player actually join the game.
                     // timer time must be > tick length
-                    Timer.Spawn(0, () => _playerManager.JoinGame(args.Session));
+                    // Timer.Spawn(0, () => _playerManager.JoinGame(args.Session)); - Harmony Queue: Removed line, login is done by JoinQueueManager
 
                     var record = await _db.GetPlayerRecordByUserId(args.Session.UserId);
                     var firstConnection = record != null &&
@@ -127,8 +127,10 @@ namespace Content.Server.GameTicking
                     {
                         _pvsOverride.RemoveSessionOverride(mindId.Value, session);
                     }
-
-                    _userDb.ClientDisconnected(session);
+                    // Harmony Queue Start
+                    if (_playerGameStatuses.ContainsKey(session.UserId))
+                    // Harmony Queue End
+                        _userDb.ClientDisconnected(session);
                     break;
                 }
             }

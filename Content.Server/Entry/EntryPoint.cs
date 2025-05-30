@@ -23,6 +23,7 @@ using Content.Server.Preferences.Managers;
 using Content.Server.ServerInfo;
 using Content.Server.ServerUpdates;
 using Content.Server.Voting.Managers;
+using Content.Shared._Harmony.Common.JoinQueue;
 using Content.Shared.CCVar;
 using Content.Shared.Kitchen;
 using Content.Shared.Localizations;
@@ -78,7 +79,7 @@ namespace Content.Server.Entry
 
             foreach (var callback in TestingCallbacks)
             {
-                var cast = (ServerModuleTestingCallbacks) callback;
+                var cast = (ServerModuleTestingCallbacks)callback;
                 cast.ServerBeforeIoC?.Invoke();
             }
 
@@ -118,6 +119,8 @@ namespace Content.Server.Entry
                 IoCManager.Resolve<JobWhitelistManager>().Initialize();
                 IoCManager.Resolve<PlayerRateLimitManager>().Initialize();
             }
+
+            IoCManager.Resolve<IJoinQueueManager>().Initialize();
         }
 
         public override void PostInit()
