@@ -135,10 +135,8 @@ public sealed partial class CCVars
 
     public static readonly CVarDef<bool> GameDiagonalMovement =
         CVarDef.Create("game.diagonalmovement", true, CVar.ARCHIVE);
-
-    //TODO - DO NOT LEAVE THIS HERE YOU MONSTER
     public static readonly CVarDef<int> SoftMaxPlayers =
-        CVarDef.Create("game.soft_max_players", 1, CVar.SERVERONLY | CVar.ARCHIVE);
+        CVarDef.Create("game.soft_max_players", 30, CVar.SERVERONLY | CVar.ARCHIVE);
 
     /// <summary>
     ///     If a player gets denied connection to the server,
