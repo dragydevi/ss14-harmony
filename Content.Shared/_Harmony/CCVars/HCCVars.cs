@@ -18,5 +18,5 @@ public sealed class HCCVars
     /// Allows server hosters to turn the queue on and off
     /// </summary>
     public static readonly CVarDef<bool> EnableQueue =
-        CVarDef.Create("harmony.enable_queue", true, CVar.SERVER);
+        CVarDef.Create("harmony.enable_queue", false, CVar.SERVER);
 }
