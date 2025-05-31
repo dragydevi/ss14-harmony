@@ -119,8 +119,9 @@ namespace Content.Server.Entry
                 IoCManager.Resolve<JobWhitelistManager>().Initialize();
                 IoCManager.Resolve<PlayerRateLimitManager>().Initialize();
             }
-
+            // Harmony Queue Start
             IoCManager.Resolve<IJoinQueueManager>().Initialize();
+            // Harmony Queue End
         }
 
         public override void PostInit()

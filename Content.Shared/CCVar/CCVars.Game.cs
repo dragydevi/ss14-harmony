@@ -135,6 +135,7 @@ public sealed partial class CCVars
 
     public static readonly CVarDef<bool> GameDiagonalMovement =
         CVarDef.Create("game.diagonalmovement", true, CVar.ARCHIVE);
+
     public static readonly CVarDef<int> SoftMaxPlayers =
         CVarDef.Create("game.soft_max_players", 30, CVar.SERVERONLY | CVar.ARCHIVE);
 

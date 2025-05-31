@@ -76,7 +76,9 @@ namespace Content.Client.Entry
         [Dependency] private readonly DebugMonitorManager _debugMonitorManager = default!;
         [Dependency] private readonly TitleWindowManager _titleWindowManager = default!;
         [Dependency] private readonly IEntitySystemManager _entitySystemManager = default!;
+        // Harmony Queue Start
         [Dependency] private readonly JoinQueueManager _joinQueue = default!;
+        // Harmony Queue End
 
         public override void Init()
         {
@@ -84,7 +86,7 @@ namespace Content.Client.Entry
 
             foreach (var callback in TestingCallbacks)
             {
-                var cast = (ClientModuleTestingCallbacks)callback;
+                var cast = (ClientModuleTestingCallbacks) callback;
                 cast.ClientBeforeIoC?.Invoke();
             }
 
@@ -157,7 +159,9 @@ namespace Content.Client.Entry
         {
             base.PostInit();
 
+            // Harmony Queue Start
             _stylesheetManager.Initialize();
+            // Harmony Queue End
 
             _joinQueue.Initialize();
 
