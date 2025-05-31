@@ -159,11 +159,11 @@ namespace Content.Client.Entry
         {
             base.PostInit();
 
-            // Harmony Queue Start
             _stylesheetManager.Initialize();
-            // Harmony Queue End
 
+            // Harmony Queue Start
             _joinQueue.Initialize();
+            // Harmony Queue End
 
             // Setup key contexts
             ContentContexts.SetupContexts(_inputManager.Contexts);

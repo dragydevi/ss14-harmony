@@ -79,7 +79,9 @@ namespace Content.Server.IoC
             IoCManager.Register<ConnectionManager>();
             IoCManager.Register<MultiServerKickManager>();
             IoCManager.Register<CVarControlManager>();
+            // Harmony Queue Start
             IoCManager.Register<IJoinQueueManager, JoinQueueManager>();
+            // Harmony Queue End
         }
     }
 }

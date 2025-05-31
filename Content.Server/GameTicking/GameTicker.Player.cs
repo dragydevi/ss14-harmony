@@ -127,7 +127,7 @@ namespace Content.Server.GameTicking
                     {
                         _pvsOverride.RemoveSessionOverride(mindId.Value, session);
                     }
-                    // Harmony Queue Start
+                    // Harmony Queue Start - make sure that the user can be disconnected now that there is a queue
                     if (_playerGameStatuses.ContainsKey(session.UserId))
                     // Harmony Queue End
                         _userDb.ClientDisconnected(session);
