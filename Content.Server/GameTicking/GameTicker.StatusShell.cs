@@ -29,6 +29,8 @@ namespace Content.Server.GameTicking
         /// </summary>
         [Dependency] private readonly SharedGameTicker _gameTicker = default!;
 
+        [Dependency] private readonly IJoinQueueManager _joinQueue = default!; // Harmony Queue
+
         private void InitializeStatusShell()
         {
             IoCManager.Resolve<IStatusHost>().OnStatusRequest += GetStatusResponse;
@@ -44,9 +46,12 @@ namespace Content.Server.GameTicking
                 jObject["name"] = _baseServer.ServerName;
                 jObject["map"] = _gameMapManager.GetSelectedMap()?.MapName;
                 jObject["round_id"] = _gameTicker.RoundId;
-                jObject["players"] = _cfg.GetCVar(CCVars.AdminsCountInReportedPlayerCount)
-                    ? _playerManager.PlayerCount
-                    : _playerManager.PlayerCount - _adminManager.ActiveAdmins.Count();
+                // Harmony Queue Start
+                // jObject["players"] = _cfg.GetCVar(CCVars.AdminsCountInReportedPlayerCount)
+                //     ? _playerManager.PlayerCount
+                //     : _playerManager.PlayerCount - _adminManager.ActiveAdmins.Count();
+                jObject["players"] = _joinQueue.ActualPlayersCount;
+                // Harmony Queue End
                 jObject["soft_max_players"] = _cfg.GetCVar(CCVars.SoftMaxPlayers);
                 jObject["panic_bunker"] = _cfg.GetCVar(CCVars.PanicBunkerEnabled);
                 jObject["run_level"] = (int) _runLevel;
