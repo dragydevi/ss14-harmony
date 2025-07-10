@@ -4,6 +4,7 @@ using Content.Shared.CCVar;
 using Content.Shared.GameTicking;
 using Robust.Server.ServerStatus;
 using Robust.Shared.Configuration;
+using Content.Shared._Harmony.Common.JoinQueue;
 
 namespace Content.Server.GameTicking
 {
