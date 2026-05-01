@@ -33,7 +33,7 @@ This project does not accept low-effort or wholesale AI-generated contributions.
 - AI-created artwork, sound files, or other assets.
 - Auto-generated documentation, issue reports or pull request descriptions.
 
-Exceptions to this are simple tools like Rider's single-line completion feature.
+Exceptions to this are simple tools like Rider's single-line completion feature
 
 ## Building
 
