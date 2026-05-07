@@ -40,6 +40,7 @@
     KillRandomPersonObjective: 0.5 # imp 1 > 0.5
     KillOrMaroonRandomPersonObjective: 0.5 # imp
     KillRandomHeadObjective: 0.25
+    TeachLessonRandomPersonObjective: 1 # DeltaV Teach a Lesson
 
 - type: weightedRandom
   id: TraitorObjectiveGroupState
