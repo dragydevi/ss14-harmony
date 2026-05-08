@@ -10,5 +10,10 @@
     RadioHandheld: 2
     WeaponGrapplingGun: 4
     WeaponProtoKineticAccelerator: 4
+  # Moist change - adds floodlights, fultons, and fulton beacon
+    Floodlight: 2
+    FultonBeacon: 1
+    Fulton: 2
+  # Moist change ends
   contrabandInventory:
     PlushieCarp: 1
