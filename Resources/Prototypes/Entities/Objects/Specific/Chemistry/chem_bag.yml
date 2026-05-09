@@ -30,4 +30,5 @@
         - Bottle
         - Syringe
         - Dropper
+        - ChemDispensable # Moist change, allows jugs
   - type: Dumpable
