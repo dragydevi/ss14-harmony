@@ -29,7 +29,7 @@
   - type: NonMobStatusIcon #imp edit. for the salvohud
 
 - type: entity
-  parent: BaseStructure
+  parent: BaseStructureDynamic # Moist change - BaseStructure -> BaseStructureDynamic - allows generator scrap to be fultoned
   id: BaseScrapLarge
   abstract: true
   name: scrap
