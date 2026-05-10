@@ -80,7 +80,7 @@
     slots:
     - back
   # Moist change, prevents the syndie axe from spacing
-    - type: Tool
-      qualities:
-      - Prying
+  - type: Tool
+    qualities:
+    - Prying
   # End of Moist change
