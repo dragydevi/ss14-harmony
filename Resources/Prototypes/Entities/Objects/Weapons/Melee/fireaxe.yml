@@ -41,7 +41,9 @@
   - type: Tool
     qualities:
       - Prying
+      - Axing # Moist change
   - type: ToolTileCompatible
+    delay: 5 # Moist change
   - type: Prying
   - type: UseDelay
     delay: 1
@@ -77,3 +79,8 @@
     quickEquip: false
     slots:
     - back
+  # Moist change, prevents the syndie axe from spacing
+    - type: Tool
+      qualities:
+      - Prying
+  # End of Moist change
