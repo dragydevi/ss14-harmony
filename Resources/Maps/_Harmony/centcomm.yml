@@ -4826,7 +4826,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 88.5,43.5
       parent: 1
-- proto: AirlockExternalGlassShuttleEscapePodLanding
+- proto: AirlockExternalGlassShuttleEmergencyLocked # Moist change - replaces Harmony's AirlockExternalGlassShuttleEscapePodLanding
   entities:
   - uid: 32
     components:
@@ -6191,7 +6191,7 @@ entities:
     - type: Transform
       pos: 74.5,59.5
       parent: 1
-- proto: BarSignMcLiltens
+- proto: BarSign  # Moist change - replaces Harmony's BarSignMcLiltens
   entities:
   - uid: 1784
     components:
@@ -36659,88 +36659,6 @@ entities:
       parent: 1
     - type: Fixtures
       fixtures: {}
-- proto: PosterHarmonyCan
-  entities:
-  - uid: 2763
-    components:
-    - type: Transform
-      pos: 60.5,35.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonyDoNotGamble
-  entities:
-  - uid: 7415
-    components:
-    - type: Transform
-      pos: 40.5,68.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonyEnrico
-  entities:
-  - uid: 7411
-    components:
-    - type: Transform
-      pos: 81.5,72.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonyHarmony
-  entities:
-  - uid: 2845
-    components:
-    - type: Transform
-      pos: 66.5,45.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonyMakeshiftClown
-  entities:
-  - uid: 7357
-    components:
-    - type: Transform
-      pos: 59.5,22.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonyManOfWeh
-  entities:
-  - uid: 7137
-    components:
-    - type: Transform
-      pos: 22.5,38.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonyMoney
-  entities:
-  - uid: 7581
-    components:
-    - type: Transform
-      pos: 45.5,63.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonySafetyLizz
-  entities:
-  - uid: 7583
-    components:
-    - type: Transform
-      pos: 53.5,50.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonyWorkHard
-  entities:
-  - uid: 7399
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 23.5,32.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
 - proto: PosterLegit12Gauge
   entities:
   - uid: 5375
@@ -39079,6 +38997,70 @@ entities:
     - type: Transform
       pos: 54.5,16.5
       parent: 1
+  - uid: 2763   # Moist change - this and the RandomPosterAny instances below it replace Harmony-specific posters
+    components:
+    - type: Transform
+      pos: 60.5,35.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 7415
+    components:
+    - type: Transform
+      pos: 40.5,68.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 7411
+    components:
+    - type: Transform
+      pos: 81.5,72.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 2845
+    components:
+    - type: Transform
+      pos: 66.5,45.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 7357
+    components:
+    - type: Transform
+      pos: 59.5,22.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 7137
+    components:
+    - type: Transform
+      pos: 22.5,38.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 7581
+    components:
+    - type: Transform
+      pos: 45.5,63.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 7583
+    components:
+    - type: Transform
+      pos: 53.5,50.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 7399
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 23.5,32.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
 - proto: RandomPosterContraband
   entities:
   - uid: 802
