@@ -918,7 +918,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    ssprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_command.rsi # Moist, new path
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_command.rsi # Moist, new path
 
 - type: entity
   parent: AirlockEngineeringLocked
