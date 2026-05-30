@@ -902,7 +902,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_cargo.rsi # Moist, new path
 
 - type: entity
   parent: AirlockCargoLocked
@@ -910,7 +910,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_cargo.rsi # Moist, new path
 
 - type: entity
   parent: AirlockCommandLocked
@@ -918,7 +918,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_command.rsi # Moist, new path
 
 - type: entity
   parent: AirlockEngineeringLocked
@@ -926,7 +926,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_engi.rsi # Moist, new path
 
 - type: entity
   parent: AirlockAtmosphericsLocked
@@ -934,7 +934,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_atmos.rsi # Moist, new path
 
 - type: entity
   parent: AirlockBarLocked
@@ -942,7 +942,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_service.rsi # Moist, new path
 
 - type: entity
   parent: AirlockBarKitchenLocked
@@ -950,7 +950,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_service.rsi # Moist, new path
 
 - type: entity
   parent: AirlockChapelLocked
@@ -958,7 +958,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_service.rsi # Moist, new path
 
 - type: entity
   parent: AirlockHydroponicsLocked
@@ -966,7 +966,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_hydroponics.rsi # Moist, new path
 
 - type: entity
   parent: AirlockJanitorLocked
@@ -974,7 +974,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_service.rsi # Moist, new path
 
 - type: entity
   parent: AirlockLawyerLocked
@@ -982,7 +982,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_security.rsi # Moist, new path
 
 - type: entity
   parent: AirlockServiceLocked
@@ -990,7 +990,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_service.rsi # Moist, new path
 
 - type: entity
   parent: AirlockTheatreLocked
@@ -998,7 +998,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_service.rsi # Moist, new path
 
 - type: entity
   parent: AirlockServiceTheatreLocked
@@ -1006,7 +1006,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_service.rsi # Moist, new path
 
 - type: entity
   parent: AirlockKitchenLocked
@@ -1014,7 +1014,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_service.rsi # Moist, new path
 
 - type: entity
   parent: AirlockFreezerKitchenHydroLocked
@@ -1022,7 +1022,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_hydroponics.rsi # Moist, new path
 
 - type: entity
   parent: AirlockMedicalLocked
@@ -1030,7 +1030,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_medical.rsi # Moist, new path
 
 - type: entity
   parent: AirlockMedicalMorgueLocked
@@ -1038,7 +1038,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_medical.rsi # Moist, new path
 
 - type: entity
   parent: AirlockChemistryLocked
@@ -1046,7 +1046,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_chemistry.rsi # Moist, new path
 
 - type: entity
   parent: AirlockScienceLocked
@@ -1054,7 +1054,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_science.rsi # Moist, new path
 
 - type: entity
   parent: AirlockMedicalScienceLocked
@@ -1062,7 +1062,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_medical.rsi # Moist, new path
 
 - type: entity
   parent: AirlockSecurityLocked
@@ -1070,7 +1070,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_security.rsi # Moist, new path
 
 - type: entity
   parent: AirlockDetectiveLocked
@@ -1078,7 +1078,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_security.rsi # Moist, new path
 
 - type: entity
   parent: AirlockHeadOfPersonnelLocked
@@ -1086,7 +1086,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_command.rsi # Moist, new path
 
 - type: entity
   parent: AirlockCaptainLocked
@@ -1094,7 +1094,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_command.rsi # Moist, new path
 
 - type: entity
   parent: AirlockChiefEngineerLocked
@@ -1102,7 +1102,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_command.rsi # Moist, new path
 
 - type: entity
   parent: AirlockChiefMedicalOfficerLocked
@@ -1110,7 +1110,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_command.rsi # Moist, new path
 
 - type: entity
   parent: AirlockHeadOfSecurityLocked
@@ -1118,7 +1118,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_command.rsi # Moist, new path
 
 - type: entity
   parent: AirlockResearchDirectorLocked
@@ -1126,7 +1126,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_command.rsi # Moist, new path
 
 - type: entity
   parent: AirlockQuartermasterLocked
@@ -1134,7 +1134,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_command.rsi # Moist, new path
 
 - type: entity
   parent: AirlockArmoryLocked
@@ -1142,7 +1142,7 @@
   name: maintenance access #imp edit
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_security.rsi # Moist, new path
 
 - type: entity
   parent: AirlockSyndicate
