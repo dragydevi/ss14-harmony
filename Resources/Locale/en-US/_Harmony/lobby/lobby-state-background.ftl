@@ -1,0 +1,3 @@
+
+lobby-state-background-twoclowns-title = So two salvagers walk onto a pitch black wreck…
+lobby-state-background-twoclowns-artist = Baxtersclaws

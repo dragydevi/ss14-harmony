@@ -1,0 +1,5 @@
+- type: lobbyBackground
+  id: Two-Clowns
+  background: /Textures/_Harmony/LobbyScreens/Two-Clowns.webp
+  title: lobby-state-background-twoclowns-title
+  artist: lobby-state-background-twoclowns-artist
