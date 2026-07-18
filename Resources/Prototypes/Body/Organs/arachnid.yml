@@ -118,7 +118,7 @@
   - type: Metabolizer
     updateInterval: 1.5
     maxReagents: 2
-    metabolizerTypes: [Arachnid, Animal]  #imp edit to add Animal
+    metabolizerTypes: [ Arachnid ]  #imp edit to add Animal (Moist edit to remove)
     groups:
     - id: Medicine
     - id: Poison
