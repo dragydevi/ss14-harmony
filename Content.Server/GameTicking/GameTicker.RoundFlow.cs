@@ -5,6 +5,7 @@ using Content.Server.Discord;
 using Content.Server.GameTicking.Events;
 using Content.Server.Maps;
 using Content.Server.Roles;
+using Content.Shared._Harmony.CCVars;
 using Content.Shared.CCVar;
 using Content.Shared.Database;
 using Content.Shared.GameTicking;
@@ -823,6 +824,13 @@ namespace Content.Server.GameTicking
             {
                 Log.Error($"Error while sending discord round start message:\n{e}");
             }
+        }
+
+        private int ModifiedPlayerCount(int originalReadyCount)
+        {
+            return _cfg.GetCVar(HCCVars.UseModifiedPlayerCount)
+                ? originalReadyCount
+                : _playerManager.PlayerCount;
         }
     }
 

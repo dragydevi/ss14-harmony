@@ -26,4 +26,10 @@ public sealed class HCCVars
     /// </summary>
     public static readonly CVarDef<int> MaxQueuePlayerCount =
         CVarDef.Create("queue.max_player_count", 0, CVar.SERVERONLY); // Client doesn't care about this CVar whatsoever
+
+    /// <summary>
+    /// This is the boolean that controls if we want to use the modified player count to determining game rule presets
+    /// </summary>
+    public static readonly CVarDef<bool> UseModifiedPlayerCount =
+        CVarDef.Create("use_modified_player_count", false, CVar.SERVERONLY); // Client doesn't care about this CVar whatsoever
 }
