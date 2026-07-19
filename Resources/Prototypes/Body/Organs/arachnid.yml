@@ -28,7 +28,7 @@
 
 - type: entity
   id: OrganArachnidStomach
-  parent: BaseHumanOrgan # Moist change
+  parent: OrganAnimalStomach
   name: arachnid stomach #imp edit
   description: "Gross. This is hard to stomach."
   components:
@@ -43,9 +43,6 @@
     specialDigestible:  #imp edit
       tags:
       - SpiderFood
-      - Meat # Moist change
-      - Raw # Moist change
-      - Organ # Moist change
     isSpecialDigestibleExclusive: false # imp
   - type: SolutionContainerManager
     solutions:
@@ -58,7 +55,7 @@
           Quantity: 5
   - type: Metabolizer
     updateInterval: 1.5
-    metabolizerTypes: [ Human ]  # Moist change
+    metabolizerTypes: [ Animal ]
   - type: Tag # goob edit
     tags:
     - Meat
@@ -121,7 +118,7 @@
   - type: Metabolizer
     updateInterval: 1.5
     maxReagents: 2
-    metabolizerTypes: [Arachnid, Animal]  #imp edit to add Animal
+    metabolizerTypes: [ Arachnid ]  #imp edit to add Animal (Moist edit to remove)
     groups:
     - id: Medicine
     - id: Poison
