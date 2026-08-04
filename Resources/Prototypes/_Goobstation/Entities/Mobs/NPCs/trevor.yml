@@ -15,8 +15,10 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: trevor
-  - type: Vehicle
-    renderOver: East, SouthEast, South, SouthWest, West
+  # Moist Change - no Vehicle Code yet
+  # - type: Vehicle
+  #   renderOver: East, SouthEast, South, SouthWest, West
+  # Moist Change End
   - type: Strap
     position: Stand
   - type: WaddleAnimation
@@ -49,8 +51,10 @@
     - id: FoodMeat
       amount: 12
   - type: Bloodstream
-    bloodMaxVolume: 200
-    bloodReagent: SpaceGlue
+    bloodReferenceSolution: # Moist Change - Bloodstream refactor for horse.
+      reagents:
+      - ReagentId: SpaceGlue
+        Quantity: 200
     bloodlossDamage:
       types:
         Bloodloss:
