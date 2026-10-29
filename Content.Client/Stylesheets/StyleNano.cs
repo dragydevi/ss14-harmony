@@ -15,6 +15,7 @@ using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.CustomControls;
 using Robust.Shared.Graphics;
+using Content.Client._Impstation.ReadyManifest.UI; // Harmony
 using static Robust.Client.UserInterface.StylesheetHelpers;
 
 namespace Content.Client.Stylesheets
@@ -1767,6 +1768,26 @@ namespace Content.Client.Stylesheets
                 Element<PanelContainer>()
                     .Class(StyleClassInset)
                     .Prop(PanelContainer.StylePropertyPanel, insetBack),
+
+                // Impstation start - ready manifest
+
+                Element<Label>()
+                    .Class(ReadyManifestJobListing.StyleClassReadyIndicatorNoReady)
+                    .Prop(Label.StylePropertyFontColor, Color.Red),
+
+                Element<Label>()
+                    .Class(ReadyManifestJobListing.StyleClassReadyIndicatorLowReady)
+                    .Prop(Label.StylePropertyFontColor, Color.Red),
+
+                Element<Label>()
+                    .Class(ReadyManifestJobListing.StyleClassReadyIndicatorMediumReady)
+                    .Prop(Label.StylePropertyFontColor, Color.Orange),
+
+                Element<Label>()
+                    .Class(ReadyManifestJobListing.StyleClassReadyIndicatorHighReady)
+                    .Prop(Label.StylePropertyFontColor, Color.LightGreen),
+
+                // Impstation end - ready manifest
             }).ToList());
         }
     }
