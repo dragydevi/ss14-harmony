@@ -1,0 +1,5 @@
+- type: lobbyBackground
+  id: Mystery
+  background: /Textures/LobbyScreens/ss14_mysterieee.webp
+  title: lobby-state-background-ss14-mysterieee-title
+  artist: lobby-state-background-ss14-mysterieee-artist
