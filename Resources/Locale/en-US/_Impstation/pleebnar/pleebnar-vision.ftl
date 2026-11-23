@@ -16,8 +16,10 @@ pleebnar-vision-4-name = Tully
 pleebnar-vision-5 = A yummy-looking sandwich rotating.
 pleebnar-vision-5-name = Sandwich
 
-pleebnar-vision-6 = A space battle going on above the Planet Teo.
-pleebnar-vision-6-name = War on Teo
+#Start Harmony change
+#pleebnar-vision-6 = A space battle going on above the Planet Teo.
+#pleebnar-vision-6-name = War on Teo
+#End Harmony change
 
 pleebnar-vision-7 = A clown crying over spilled milk.
 pleebnar-vision-7-name = Sadness
@@ -329,8 +331,10 @@ pleebnar-vision-106-name = Reminder
 pleebnar-vision-107 = The fabric of reality tearing apart, revealing something greater looking in.
 pleebnar-vision-107-name = Watcher
 
-pleebnar-vision-108 = A comic featuring an orange cat. It is being thrown out a window.
-pleebnar-vision-108-name = Garfield
+#Start Harmony change
+#pleebnar-vision-108 = A comic featuring an orange cat. It is being thrown out a window.
+#pleebnar-vision-108-name = Garfield
+#End Harmony change
 
 pleebnar-vision-109 = A small green alien painting the Mona Lisa.
 pleebnar-vision-109-name = Fame
