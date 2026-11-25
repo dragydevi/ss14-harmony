@@ -1,7 +1,7 @@
 # Last match in file takes precedence.
 
 # Everything
-*                                                   @KeldWolf @FluffMe @youtissoum
+*                                                   @KeldWolf @FluffMe @youtissoum @DDeegan
 
 # C# code
 /Content.*/                                         @KeldWolf @FluffMe @youtissoum @DDeegan
@@ -14,7 +14,7 @@
 /Resources/Locale                                   @KeldWolf @FluffMe @youtissoum @DDeegan @Zap527 @kleinerstation13
 
 # Server info and rules
-/Resources/ServerInfo                               @KeldWolf @FluffMe @youtissoum @Zap527
+/Resources/ServerInfo                               @KeldWolf @FluffMe @youtissoum @Zap527 @DDeegan
 
 # Sprites
 /Resources/Textures/                                @KeldWolf @FluffMe @youtissoum
